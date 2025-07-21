@@ -1,0 +1,58 @@
+.bulb-container{
+    height:25vh;
+    width:10vw;
+    border-radius: 20px;
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    background-color: white;
+
+}
+.bulb{
+    height:6vh;
+    width:6vw;
+    border-radius:30px;
+    background-color:grey;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 15px; */
+}
+.side-conatainer{
+    display:flex;
+    flex-direction: row;
+    
+
+}
+.button-container{
+     display:flex;
+    flex-direction: column;
+    gap:30px;
+
+
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: skyblue;
+
+}
+.button{
+    height: 5vh;
+    border-radius: 10px;
+    background-color: white;
+    border-color: azure;
+}
+.heading{
+    font-family: ' sans-serif';
+    color:black;
+}
